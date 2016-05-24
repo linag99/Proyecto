@@ -1,0 +1,41 @@
+numero=input("Digite el numero deseado hasta de 4 cifras: ")
+def conversorRomanos(numero:int)->int:
+    if(numero<4000 and decimal>0):
+        letras=str(numero)+" convertido en romanos es: "
+        M=numero//1000
+        letras=letras+("M"*M)
+        numero=numero-M*1000
+        CM=numero//900
+        letras=letras+("CM"*CM)
+        numero=numero-CM*900
+        D=numero//500
+        letras=letras+("D"*D)
+        numero=numero-D*500
+        CD=numero//400
+        letras=letras+("CD"*CD)
+        numero=numero-CD*400
+        C=numero//100
+        letras=letras+("C"*C)
+        numero=numero-C*100
+        XC=numero//90
+        letras=letras+("XC"*XC)
+        numero=numero-XC*90
+        L=numero//50
+        letras=letras+("L"*L)
+        numero=numero-L*50
+        X=numero//10
+        letras=letras+("X"*X)
+        numero=numero-X*10
+        IX=numero//9
+        letras=letras+("IX"*IX)
+        numero=numero-IX*9
+        V=numero//5
+        letras=letras+("V"*V)
+        numero=numero-V*5
+        IV=numero//4
+        letras=letras+("IV"*IV)
+        numero=numero-IV*4
+        I=numero//1
+        letras=letras+("I"*I)
+        numero=numero-I*1
+    print (letras)
